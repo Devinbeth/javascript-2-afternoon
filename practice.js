@@ -67,7 +67,10 @@ favoriteThings.book = "Harry Potter";
 
 //Code here
 
-
+var backPack = {};
+var item = 'firstPocket';
+backPack[item] = 'chapstick';
+backPack.color = 'red';
 
 /*
   After you do the above, alert your entire backPack object.
@@ -75,7 +78,7 @@ favoriteThings.book = "Harry Potter";
 
 //Code here
 
-
+alert(backPack);
 
 /*
 You probably noticed that it just alerted [object Object].
@@ -85,7 +88,7 @@ Instead, console.log your whole backPack object and then check out the console.
 
 //Code here
 
-
+console.log(backPack);
 
 ////////// PROBLEM 4 //////////
 
@@ -148,7 +151,14 @@ var user2 = {
 
 //Code Here
 
-
+function makePerson(name, birthday, ssn){
+  var obj = {
+    name: name,
+    birthday: birthday,
+    ssn: ssn,
+  };
+  return obj;
+}
 
 ////////// PROBLEM 7 //////////
 
