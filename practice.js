@@ -16,7 +16,8 @@
 
 //Code here
 
-
+var me = {name: "Devin", age: 32};
+alert(me.name);
 
 ////////// PROBLEM 2 //////////
 
