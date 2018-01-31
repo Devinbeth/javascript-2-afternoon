@@ -16,7 +16,10 @@
 
 //Code here
 
-var me = {name: "Devin", age: 32};
+var me = {
+  name: "Devin", 
+  age: 32
+};
 alert(me.name);
 
 ////////// PROBLEM 2 //////////
@@ -158,7 +161,7 @@ function makePerson(name, birthday, ssn){
   var obj = {
     name: name,
     birthday: birthday,
-    ssn: ssn,
+    ssn: ssn
   };
   return obj;
 }
@@ -175,8 +178,8 @@ function makePerson(name, birthday, ssn){
 function makeCard(cardNumber, expirationDate, securityCode){
   var creditCard = {
     cardNumber: cardNumber,
-    expirationDate = expirationDate,
-    securityCode = securityCode
-  }
+    expirationDate: expirationDate,
+    securityCode: securityCode
+  };
   return creditCard;
 }
